@@ -1,3 +1,79 @@
+server:
+  port: 8888
+
 spring:
   application:
     name: api-gateway
+
+  # ── Redis Session ──
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
+
+  session:
+    store-type: redis
+    timeout: 3600s   # expire après 1h
+
+  # ── OAuth2 Client — Keycloak ──
+  security:
+    oauth2:
+      client:
+        registration:
+          keycloak:
+            client-id: ${KEYCLOAK_CLIENT_ID:fleet-gateway}
+            client-secret: ${KEYCLOAK_CLIENT_SECRET:change-me}
+            authorization-grant-type: authorization_code
+            redirect-uri: "{baseUrl}/login/oauth2/code/keycloak"
+            scope:
+              - openid
+              - profile
+              - email
+        provider:
+          keycloak:
+            issuer-uri: ${KEYCLOAK_URL:http://localhost:8080}/realms/${KEYCLOAK_REALM:fleet-realm}
+            # Spring déduit automatiquement les endpoints depuis issuer-uri :
+            #   authorization-uri → /protocol/openid-connect/auth
+            #   token-uri         → /protocol/openid-connect/token
+            #   jwk-set-uri       → /protocol/openid-connect/certs
+            #   user-info-uri     → /protocol/openid-connect/userinfo
+
+  # ── CORS configuré dans CorsConfig.java ──
+
+# ── Actuator ──
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info
+  endpoint:
+    health:
+      show-details: always
+
+# ── Logs ──
+logging:
+  level:
+    com.fleetmanagement.gateway: DEBUG
+    org.springframework.cloud.gateway: INFO
+    org.springframework.security: INFO
+
+---
+# ══════════════════════════════
+# Profil Docker
+# ══════════════════════════════
+spring:
+  config:
+    activate:
+      on-profile: docker
+
+  data:
+    redis:
+      host: redis
+      port: 6379
+
+  security:
+    oauth2:
+      client:
+        provider:
+          keycloak:
+            issuer-uri: http://keycloak:8080/realms/${KEYCLOAK_REALM:fleet-realm}
