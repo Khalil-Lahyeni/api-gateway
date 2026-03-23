@@ -1,4 +1,4 @@
-package com.fleetmanagement.gateway.config;
+package actia.api_gateway.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -19,18 +19,6 @@ public class SecurityConfig {
         this.clientRegistrationRepository = clientRegistrationRepository;
     }
 
-    /**
-     * Flux d'authentification (d'après les diagrammes) :
-     *
-     * 1. Angular appelle /api/leads sans session
-     * 2. Gateway redirige → Keycloak (302)
-     * 3. Utilisateur se connecte sur Keycloak
-     * 4. Keycloak redirige → /callback?code=xxx
-     * 5. Gateway échange le code contre un JWT
-     * 6. Gateway stocke le JWT en session Redis
-     * 7. Gateway renvoie un cookie SESSION (HTTP-only) à Angular
-     * 8. Toutes les prochaines requêtes Angular utilisent ce cookie
-     */
     @Bean
     public SecurityWebFilterChain securityFilterChain(ServerHttpSecurity http) {
         http
