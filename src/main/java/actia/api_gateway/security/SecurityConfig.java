@@ -58,10 +58,13 @@ public class SecurityConfig {
      * Redirige vers Keycloak pour invalider la session SSO
      * puis redirige vers l'accueil Angular
      */
-    private ServerLogoutSuccessHandler oidcLogoutSuccessHandler() {
-        OidcClientInitiatedServerLogoutSuccessHandler handler =
-                new OidcClientInitiatedServerLogoutSuccessHandler(clientRegistrationRepository);
-        handler.setPostLogoutRedirectUri("http://localhost:4200");
-        return handler;
+    private ServerAuthenticationSuccessHandler redirectHandler() {
+    return (WebFilterExchange webFilterExchange, Authentication authentication) -> {
+        ServerWebExchange exchange = webFilterExchange.getExchange();
+        exchange.getResponse().setStatusCode(HttpStatus.FOUND);
+        exchange.getResponse().getHeaders()
+            .setLocation(URI.create("http://localhost:4200"));
+        return exchange.getResponse().setComplete();
+    };
     }
 }
