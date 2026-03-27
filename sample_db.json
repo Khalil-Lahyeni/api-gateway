@@ -1,0 +1,639 @@
+{
+  "trains": [
+    {
+      "trainId": "T-001",
+      "lastSeen": "2025-10-08T10:11:39.558Z",
+      "pacisStatus": "ok",
+      "cctvStatus": "partially_ok",
+      "rearViewStatus": "ok",
+      "mission": "Local",
+      "currentStation": "Station A",
+      "nextStation": "Station B",
+      "destination": "Station Z",
+      "baseline": "1.2.3",
+      "diversity": "High",
+      "database": "DB_A",
+      "updateStatus": "Updated"
+    },
+    {
+      "trainId": "T-002",
+      "lastSeen": "2025-10-08T10:11:39.558Z",
+      "pacisStatus": "failure",
+      "cctvStatus": "ok",
+      "rearViewStatus": "communication_lost",
+      "mission": "Express",
+      "currentStation": "Station C",
+      "nextStation": "Station D",
+      "destination": "Station W",
+      "baseline": "1.2.4",
+      "diversity": "Low",
+      "database": "DB_B",
+      "updateStatus": "Pending"
+    },
+    {
+      "trainId": "T-003",
+      "lastSeen": "2025-10-08T10:11:39.558Z",
+      "pacisStatus": "ok",
+      "cctvStatus": "ok",
+      "rearViewStatus": "ok",
+      "mission": "Freight",
+      "currentStation": "Station E",
+      "nextStation": "Station F",
+      "destination": "Station X",
+      "baseline": "1.2.5",
+      "diversity": "Medium",
+      "database": "DB_C",
+      "updateStatus": "Updated"
+    },
+    {
+      "trainId": "T-004",
+      "lastSeen": "2025-10-08T10:11:39.558Z",
+      "pacisStatus": "ok",
+      "cctvStatus": "failure",
+      "rearViewStatus": "ok",
+      "mission": "Local",
+      "currentStation": "Station G",
+      "nextStation": "Station H",
+      "destination": "Station Y",
+      "baseline": "1.2.3",
+      "diversity": "High",
+      "database": "DB_A",
+      "updateStatus": "Pending"
+    },
+    {
+      "trainId": "T-005",
+      "lastSeen": "2025-10-08T10:11:39.558Z",
+      "pacisStatus": "communication_lost",
+      "cctvStatus": "ok",
+      "rearViewStatus": "ok",
+      "mission": "Express",
+      "currentStation": "Station I",
+      "nextStation": "Station J",
+      "destination": "Station Z",
+      "baseline": "1.2.6",
+      "diversity": "Low",
+      "database": "DB_D",
+      "updateStatus": "Updated"
+    },
+    {
+      "trainId": "T-006",
+      "lastSeen": "2025-10-08T10:11:39.558Z",
+      "pacisStatus": "ok",
+      "cctvStatus": "ok",
+      "rearViewStatus": "partially_ok",
+      "mission": "Freight",
+      "currentStation": "Station K",
+      "nextStation": "Station L",
+      "destination": "Station W",
+      "baseline": "1.2.4",
+      "diversity": "Medium",
+      "database": "DB_B",
+      "updateStatus": "Pending"
+    },
+    {
+      "trainId": "T-007",
+      "lastSeen": "2025-10-08T10:11:39.558Z",
+      "pacisStatus": "ok",
+      "cctvStatus": "ok",
+      "rearViewStatus": "ok",
+      "mission": "Local",
+      "currentStation": "Station M",
+      "nextStation": "Station N",
+      "destination": "Station X",
+      "baseline": "1.2.5",
+      "diversity": "High",
+      "database": "DB_C",
+      "updateStatus": "Updated"
+    },
+    {
+      "trainId": "T-008",
+      "lastSeen": "2025-10-08T10:11:39.558Z",
+      "pacisStatus": "failure",
+      "cctvStatus": "ok",
+      "rearViewStatus": "communication_lost",
+      "mission": "Express",
+      "currentStation": "Station O",
+      "nextStation": "Station P",
+      "destination": "Station Y",
+      "baseline": "1.2.3",
+      "diversity": "Low",
+      "database": "DB_A",
+      "updateStatus": "Pending"
+    },
+    {
+      "trainId": "T-009",
+      "lastSeen": "2025-10-08T10:11:39.558Z",
+      "pacisStatus": "ok",
+      "cctvStatus": "failure",
+      "rearViewStatus": "ok",
+      "mission": "Freight",
+      "currentStation": "Station Q",
+      "nextStation": "Station R",
+      "destination": "Station Z",
+      "baseline": "1.2.6",
+      "diversity": "Medium",
+      "database": "DB_D",
+      "updateStatus": "Updated"
+    },
+    {
+      "trainId": "T-010",
+      "lastSeen": "2025-10-08T10:11:39.558Z",
+      "pacisStatus": "ok",
+      "cctvStatus": "ok",
+      "rearViewStatus": "ok",
+      "mission": "Local",
+      "currentStation": "Station S",
+      "nextStation": "Station T",
+      "destination": "Station W",
+      "baseline": "1.2.4",
+      "diversity": "High",
+      "database": "DB_B",
+      "updateStatus": "Pending"
+    },
+    {
+      "trainId": "T-011",
+      "lastSeen": "2025-10-08T10:11:39.558Z",
+      "pacisStatus": "ok",
+      "cctvStatus": "partially_ok",
+      "rearViewStatus": "ok",
+      "mission": "Express",
+      "currentStation": "Station U",
+      "nextStation": "Station V",
+      "destination": "Station X",
+      "baseline": "1.2.5",
+      "diversity": "Low",
+      "database": "DB_C",
+      "updateStatus": "Updated"
+    },
+    {
+      "trainId": "T-012",
+      "lastSeen": "2025-10-08T10:11:39.558Z",
+      "pacisStatus": "failure",
+      "cctvStatus": "ok",
+      "rearViewStatus": "communication_lost",
+      "mission": "Freight",
+      "currentStation": "Station A",
+      "nextStation": "Station B",
+      "destination": "Station Y",
+      "baseline": "1.2.3",
+      "diversity": "Medium",
+      "database": "DB_A",
+      "updateStatus": "Pending"
+    },
+    {
+      "trainId": "T-013",
+      "lastSeen": "2025-10-08T10:11:39.558Z",
+      "pacisStatus": "ok",
+      "cctvStatus": "ok",
+      "rearViewStatus": "ok",
+      "mission": "Local",
+      "currentStation": "Station C",
+      "nextStation": "Station D",
+      "destination": "Station Z",
+      "baseline": "1.2.6",
+      "diversity": "High",
+      "database": "DB_D",
+      "updateStatus": "Updated"
+    },
+    {
+      "trainId": "T-014",
+      "lastSeen": "2025-10-08T10:11:39.558Z",
+      "pacisStatus": "ok",
+      "cctvStatus": "failure",
+      "rearViewStatus": "ok",
+      "mission": "Express",
+      "currentStation": "Station E",
+      "nextStation": "Station F",
+      "destination": "Station W",
+      "baseline": "1.2.4",
+      "diversity": "Low",
+      "database": "DB_B",
+      "updateStatus": "Pending"
+    },
+    {
+      "trainId": "T-015",
+      "lastSeen": "2025-10-08T10:11:39.558Z",
+      "pacisStatus": "communication_lost",
+      "cctvStatus": "ok",
+      "rearViewStatus": "ok",
+      "mission": "Freight",
+      "currentStation": "Station G",
+      "nextStation": "Station H",
+      "destination": "Station X",
+      "baseline": "1.2.5",
+      "diversity": "Medium",
+      "database": "DB_C",
+      "updateStatus": "Updated"
+    },
+    {
+      "trainId": "T-016",
+      "lastSeen": "2025-10-08T10:11:39.558Z",
+      "pacisStatus": "ok",
+      "cctvStatus": "ok",
+      "rearViewStatus": "partially_ok",
+      "mission": "Local",
+      "currentStation": "Station I",
+      "nextStation": "Station J",
+      "destination": "Station Y",
+      "baseline": "1.2.3",
+      "diversity": "High",
+      "database": "DB_A",
+      "updateStatus": "Pending"
+    },
+    {
+      "trainId": "T-017",
+      "lastSeen": "2025-10-08T10:11:39.558Z",
+      "pacisStatus": "ok",
+      "cctvStatus": "ok",
+      "rearViewStatus": "ok",
+      "mission": "Express",
+      "currentStation": "Station K",
+      "nextStation": "Station L",
+      "destination": "Station Z",
+      "baseline": "1.2.6",
+      "diversity": "Low",
+      "database": "DB_D",
+      "updateStatus": "Updated"
+    },
+    {
+      "trainId": "T-018",
+      "lastSeen": "2025-10-08T10:11:39.558Z",
+      "pacisStatus": "failure",
+      "cctvStatus": "ok",
+      "rearViewStatus": "communication_lost",
+      "mission": "Freight",
+      "currentStation": "Station M",
+      "nextStation": "Station N",
+      "destination": "Station W",
+      "baseline": "1.2.4",
+      "diversity": "Medium",
+      "database": "DB_B",
+      "updateStatus": "Pending"
+    },
+    {
+      "trainId": "T-019",
+      "lastSeen": "2025-10-08T10:11:39.558Z",
+      "pacisStatus": "ok",
+      "cctvStatus": "failure",
+      "rearViewStatus": "ok",
+      "mission": "Local",
+      "currentStation": "Station O",
+      "nextStation": "Station P",
+      "destination": "Station X",
+      "baseline": "1.2.5",
+      "diversity": "High",
+      "database": "DB_C",
+      "updateStatus": "Updated"
+    },
+    {
+      "trainId": "T-020",
+      "lastSeen": "2025-10-08T10:11:39.558Z",
+      "pacisStatus": "ok",
+      "cctvStatus": "ok",
+      "rearViewStatus": "ok",
+      "mission": "Express",
+      "currentStation": "Station Q",
+      "nextStation": "Station R",
+      "destination": "Station Y",
+      "baseline": "1.2.3",
+      "diversity": "Low",
+      "database": "DB_A",
+      "updateStatus": "Pending"
+    },
+    {
+      "trainId": "T-021",
+      "lastSeen": "2025-10-08T10:11:39.558Z",
+      "pacisStatus": "ok",
+      "cctvStatus": "partially_ok",
+      "rearViewStatus": "ok",
+      "mission": "Freight",
+      "currentStation": "Station S",
+      "nextStation": "Station T",
+      "destination": "Station Z",
+      "baseline": "1.2.6",
+      "diversity": "Medium",
+      "database": "DB_D",
+      "updateStatus": "Updated"
+    },
+    {
+      "trainId": "T-022",
+      "lastSeen": "2025-10-08T10:11:39.558Z",
+      "pacisStatus": "failure",
+      "cctvStatus": "ok",
+      "rearViewStatus": "communication_lost",
+      "mission": "Local",
+      "currentStation": "Station U",
+      "nextStation": "Station V",
+      "destination": "Station W",
+      "baseline": "1.2.4",
+      "diversity": "High",
+      "database": "DB_B",
+      "updateStatus": "Pending"
+    },
+    {
+      "trainId": "T-023",
+      "lastSeen": "2025-10-08T10:11:39.558Z",
+      "pacisStatus": "ok",
+      "cctvStatus": "ok",
+      "rearViewStatus": "ok",
+      "mission": "Express",
+      "currentStation": "Station A",
+      "nextStation": "Station B",
+      "destination": "Station X",
+      "baseline": "1.2.5",
+      "diversity": "Low",
+      "database": "DB_C",
+      "updateStatus": "Updated"
+    },
+    {
+      "trainId": "T-024",
+      "lastSeen": "2025-10-08T10:11:39.558Z",
+      "pacisStatus": "ok",
+      "cctvStatus": "failure",
+      "rearViewStatus": "ok",
+      "mission": "Freight",
+      "currentStation": "Station C",
+      "nextStation": "Station D",
+      "destination": "Station Y",
+      "baseline": "1.2.3",
+      "diversity": "Medium",
+      "database": "DB_A",
+      "updateStatus": "Pending"
+    },
+    {
+      "trainId": "T-025",
+      "lastSeen": "2025-10-08T10:11:39.558Z",
+      "pacisStatus": "communication_lost",
+      "cctvStatus": "ok",
+      "rearViewStatus": "ok",
+      "mission": "Local",
+      "currentStation": "Station E",
+      "nextStation": "Station F",
+      "destination": "Station Z",
+      "baseline": "1.2.6",
+      "diversity": "High",
+      "database": "DB_D",
+      "updateStatus": "Updated"
+    }
+  ],
+  "media-databases": [
+    {
+      "deviceIp": "172.16.4.15",
+      "trainId": "T-001",
+      "name": "Model Alpha (High Priority)",
+      "versions": [
+        {
+          "version_id": "123",
+          "version_number": "2.1.0",
+          "is_active": true,
+          "activation_date": "2025-10-01T08:30:00Z"
+        },
+        {
+          "version_id": "124",
+          "version_number": "2.1.1",
+          "is_active": false,
+          "activation_date": null
+        },
+        {
+          "version_id": "125",
+          "version_number": "2.2.0",
+          "is_active": true,
+          "activation_date": "2025-10-05T14:45:00Z"
+        },
+        {
+          "version_id": "126",
+          "version_number": "3.0.0",
+          "is_active": false,
+          "activation_date": null
+        },
+        {
+          "version_id": "127",
+          "version_number": "3.1.0",
+          "is_active": false,
+          "activation_date": null
+        }
+      ]
+    },
+    {
+      "deviceIp": "172.16.4.10",
+      "trainId": "T-002",
+      "name": "Model Beta (Standard)",
+      "versions": [
+        {
+          "version_id": "123",
+          "version_number": "2.1.0",
+          "is_active": true,
+          "activation_date": "2025-09-15T11:00:00Z"
+        },
+        {
+          "version_id": "124",
+          "version_number": "2.1.1",
+          "is_active": true,
+          "activation_date": "2025-09-20T16:00:00Z"
+        },
+        {
+          "version_id": "125",
+          "version_number": "2.2.0",
+          "is_active": false,
+          "activation_date": null
+        },
+        {
+          "version_id": "126",
+          "version_number": "3.0.0",
+          "is_active": true,
+          "activation_date": "2025-10-10T09:00:00Z"
+        },
+        {
+          "version_id": "127",
+          "version_number": "3.1.0",
+          "is_active": false,
+          "activation_date": null
+        }
+      ]
+    },
+    {
+      "deviceIp": "172.16.4.11",
+      "trainId": "T-003",
+      "name": "Model Gamma (Legacy)",
+      "versions": [
+        {
+          "version_id": "123",
+          "version_number": "2.1.0",
+          "is_active": false,
+          "activation_date": null
+        },
+        {
+          "version_id": "124",
+          "version_number": "2.1.1",
+          "is_active": false,
+          "activation_date": null
+        },
+        {
+          "version_id": "125",
+          "version_number": "2.2.0",
+          "is_active": true,
+          "activation_date": "2025-08-01T12:00:00Z"
+        },
+        {
+          "version_id": "126",
+          "version_number": "3.0.0",
+          "is_active": false,
+          "activation_date": null
+        },
+        {
+          "version_id": "127",
+          "version_number": "3.1.0",
+          "is_active": false,
+          "activation_date": null
+        }
+      ]
+    },
+    {
+      "deviceIp": "172.16.4.12",
+      "trainId": "T-004",
+      "name": "Model Delta",
+      "versions": [
+        {
+          "version_id": "123",
+          "version_number": "2.1.0",
+          "is_active": false,
+          "activation_date": null
+        },
+        {
+          "version_id": "124",
+          "version_number": "2.1.1",
+          "is_active": true,
+          "activation_date": "2025-10-09T10:00:00Z"
+        },
+        {
+          "version_id": "125",
+          "version_number": "2.2.0",
+          "is_active": true,
+          "activation_date": "2025-10-09T10:00:00Z"
+        },
+        {
+          "version_id": "126",
+          "version_number": "3.0.0",
+          "is_active": false,
+          "activation_date": null
+        },
+        {
+          "version_id": "127",
+          "version_number": "3.1.0",
+          "is_active": false,
+          "activation_date": null
+        }
+      ]
+    }
+  ],
+  "configuration": {
+    "general": {
+      "connectedTime": {
+        "hour": 12,
+        "minute": 30,
+        "second": 15
+      },
+      "selectedDateFormat": "dd/MM/yyyy HH:mm",
+      "selectedLanguage": "en-US",
+      "securityVersion": "1.2.3.5"
+    },
+    "trains": [
+      {
+        "trainId": "T-001",
+        "visible": true,
+        "ccu1Ip": "10.0.1.1",
+        "ccu2Ip": "10.0.1.2"
+      },
+      {
+        "trainId": "T-002",
+        "visible": false,
+        "ccu1Ip": "10.0.2.1",
+        "ccu2Ip": "10.0.2.2"
+      },
+      {
+        "trainId": "T-003",
+        "visible": true,
+        "ccu1Ip": "10.0.3.1",
+        "ccu2Ip": "10.0.3.2"
+      },
+      {
+        "trainId": "T-004",
+        "visible": true,
+        "ccu1Ip": "10.0.4.1",
+        "ccu2Ip": "10.0.4.2"
+      },
+      {
+        "trainId": "T-005",
+        "visible": false,
+        "ccu1Ip": "10.0.5.1",
+        "ccu2Ip": "10.0.5.5"
+      }
+    ]
+  },
+  "messages": [
+    {
+      "trainId": "T-001",
+      "messages": [
+        {
+          "messageId": 1,
+          "messageType": "AUDIO",
+          "name": "Departure Time Set"
+        },
+        {
+            "messageId": 2,
+            "messageType": "LED",
+            "name": "Brake Pressure Low"
+        },
+        {
+          "messageId": 3,
+          "messageType": "TFT_VIDEO",
+          "name": "Real-time Position Update"
+        }
+      ]
+    },
+    {
+      "trainId": "T-002",
+      "messages": [
+        {
+          "messageId": 4,
+          "messageType": "TFT_VIDEO",
+          "name": "Engine Failure"
+        },
+        {
+          "messageId": 5,
+          "messageType": "AUDIO",
+          "name": "Maintenance Scheduled"
+        }
+      ]
+    }
+  ]
+}
+
+[
+  {
+    "call_state": 0,
+    "cameras": [
+      "rtsp://192.168.10.120/axis-media/media.amp?streamprofile=REC",
+      "rtsp://192.168.10.128/axis-media/media.amp?streamprofile=REC"
+    ],
+    "car": 1,
+    "car_name": "M1",
+    "description": "Fire Alarm in car N°1",
+    "intercoms": "",
+    "train": 10,
+    "type": 1
+  },
+  {
+    "call_state": 0,
+    "cameras": [
+      "rtsp://192.168.10.120/axis-media/media.amp?streamprofile=REC",
+      "rtsp://192.168.10.128/axis-media/media.amp?streamprofile=REC"
+    ],
+    "car": 1,
+    "car_name": "M1",
+    "description": "Intercommunication requested via PEI N°2",
+    "intercoms": "192.168.10.51",
+    "train": 10,
+    "type": 2
+  }
+]
